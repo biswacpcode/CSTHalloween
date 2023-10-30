@@ -98,19 +98,6 @@ img {
 span{
   display: none;
 }
-
-.dark-layer {
-  background: red;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  z-index: 9999999999;
-
-}
 @media screen and (min-width: 576px) {
   .home-stone, .home-trees, .home-moon, .home-grass{
     width: 100%;
@@ -159,3 +146,13 @@ span{
   
 }
 
+.dark-layer {
+  background: rgba(0, 0, 0, 0.95);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+
+}
